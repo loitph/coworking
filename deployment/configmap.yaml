@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap
+data:
+  DB_NAME: "mydatabase"
+  DB_USER: "myuser"
+  DB_HOST: "postgresql-service.default.svc.cluster.local"
+  DB_PORT: "5432"
